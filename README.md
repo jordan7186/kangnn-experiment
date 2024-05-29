@@ -3,7 +3,7 @@
 This repository contains some quick experimental results for comparing the performance of MLP, GN (GCN), KAN, and KAN+GNN on several benchmark datasets on graph learning (specifically, node classfication). 
 
 ## TL;DR (for now)
-- **Using KANs or KAN + GNNs usually introduces a lot of model parameters.** This makes really skeptical to use KANs or KAN+GNNs compared to MLPs or GNNs. **(Perhaps we need a more effective way to merge KANs with GNNs)**
+- **Using KANs or KAN + GNNs usually introduces a lot of model parameters.** This makes it really skeptical to use KANs or KAN+GNNs compared to MLPs or GNNs. **(Perhaps we need a more effective way to merge KANs with GNNs)**
 - Make the model (especially the KAN part) as light as possible.
 - KAN+GNN generally performs great on homophilic datasets, but really suffers on heterophilic datasets (even worse than GCNs).
 - KANs shines more on heterophilic datasets.
