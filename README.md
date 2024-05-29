@@ -118,14 +118,14 @@ For this, I fit an XGBoost model to predict the test performance of each model b
 - The number of KAN per layers is more important than the number of message passing layers. In general, make the model as light as possible.
 
 Figure: SHAP analysis for Cora on KAN + GNN
-![alt text](/kangnn-experiment/images/Cora_KANGNN_SHAP.png "Cora_KANGNN_SHAP")
+![alt text](/images/Cora_KANGNN_SHAP.png "Cora_KANGNN_SHAP")
 
 ### KAN
 - Similar to KAN+GNN, learning rate is the most important hyperparameter.
 - Also similar to KAN+GNN, make the KAN as light as possible.
 
 Figure: SHAP analysis for Citeseer on KAN
-![alt text](/kangnn-experiment/images/Citeseer_KAN_SHAP.png "Citeseer_KAN_SHAP")
+![alt text](/images/Citeseer_KAN_SHAP.png "Citeseer_KAN_SHAP")
 
 ## Result 3: Test performance vs. Number of parameters
 
@@ -141,10 +141,10 @@ Here are some observations:
 - For heterophilic datasets, non-GNN types (MLP, KAN) usually perform better with a larger margin.
 
 Figure: Test performance vs. Number of parameters for Cora
-![alt text](/kangnn-experiment/images/Cora_Param.png "Cora_Param.png")
+![alt text](/images/Cora_Param.png "Cora_Param.png")
 
 Figure: Test performance vs. Number of parameters for Wisconsin
-![alt text](/kangnn-experiment/images/Wisconsin_Param.png "Wisconsin_Param.png")
+![alt text](/images/Wisconsin_Param.png "Wisconsin_Param.png")
 
 ## Note
 
