@@ -1,6 +1,6 @@
 # Experiments on using Kolmogorov-Arnold Networks (KAN) on Graph Learning
 
-This repository contains some quick experimental results for comparing the performance of MLP, GN (GCN), KAN, and KAN+GNN on several benchmark datasets on graph learning (specifically, node classfication). 
+This repository contains some quick experimental results on comparing the performance of MLP, GNN (GCN), KAN, and KAN+GNN on several benchmark datasets on graph learning (specifically, node classfication). 
 
 ## TL;DR (for now)
 - **Using KANs or KAN + GNNs usually introduces a lot of model parameters.** This makes it really skeptical to use KANs or KAN+GNNs compared to MLPs or GNNs. **(Perhaps we need a more effective way to merge KANs with GNNs)**
