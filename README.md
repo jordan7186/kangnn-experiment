@@ -141,11 +141,11 @@ Here are some observations:
 - For heterophilic datasets, non-GNN types (MLP, KAN) usually perform better with a larger margin.
 
 
-Figure: Test performance vs. Number of parameters for Cora
+Figure: Test performance vs. Number of parameters for Cora\
 ![alt text](/images/Cora_Param.png "Cora_Param.png")
 
 
-Figure: Test performance vs. Number of parameters for Wisconsin
+Figure: Test performance vs. Number of parameters for Wisconsin\
 ![alt text](/images/Wisconsin_Param.png "Wisconsin_Param.png")
 
 
